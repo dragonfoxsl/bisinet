@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "python-obfuscate-code"
+version = "0.1.0"
+description = ""
+authors = ["Bisina Wickremasinghe <bisina@protonmail.com>"]
+readme = "README.md"
+packages = [{include = "python_obfuscate_code"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.31.0"
+pycryptodome = "^3.19.0"
+pyarmor = "^8.4.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
